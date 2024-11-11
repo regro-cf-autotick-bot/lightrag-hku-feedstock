@@ -1,3 +1,4 @@
+{% set name = "lightrag-hku" %}
 {% set version = "1.0.0" %}
 
 package:
