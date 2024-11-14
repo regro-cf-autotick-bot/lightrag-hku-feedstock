@@ -1,5 +1,5 @@
 {% set name = "lightrag-hku" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/lightrag_hku-{{ version }}.tar.gz
-  sha256: 303f3204ce8bb607c846aa1a2480556677305d74dcb23ab5a2c080df88920ae6
+  sha256: a39a28a83401a7bd909dfe9f8cbcd9747a860ce73389f13052ed8e913f97c49e
   patches:
     - requirements.patch
 
@@ -38,7 +38,7 @@ requirements:
     - pytorch
     - tenacity
     - transformers
-    - neo4j-python-driver 
+    - neo4j-python-driver
 
 test:
   imports:
