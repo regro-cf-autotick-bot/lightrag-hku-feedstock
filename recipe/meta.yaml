@@ -39,6 +39,7 @@ requirements:
     - tenacity
     - transformers
     - neo4j-python-driver
+    - oracledb
 
 test:
   imports:
