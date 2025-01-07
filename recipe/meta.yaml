@@ -23,6 +23,7 @@ requirements:
     - setuptools
   run:
     - aioboto3
+    - aiobotocore =2.16.0
     - ollama
     - pyvis
     - python >=3.9
